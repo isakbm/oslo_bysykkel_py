@@ -35,7 +35,7 @@ print(json.dumps(summary, indent='    '))
 
 Then execute
 ```shell
-$ python main.py
+$ (oorigo) python main.py
 ```
 
 You should see some nice json output.
