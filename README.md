@@ -33,6 +33,9 @@ summary = api.get_summary_dict()
 print(json.dumps(summary, indent='    '))
 ```
 
+Then execute
 ```shell
 $ python main.py
 ```
+
+You should see some nice json output.
