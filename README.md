@@ -30,7 +30,7 @@ from oslo_bysykkel import API
 api = API(client_identifier='OSLO-ORIGO-APPLICANT-CODE-CHALLENGE')
 summary = api.get_summary_dict()
 
-print(json.dumps(summary, indent='    '))
+print(json.dumps(summary, indent='    ', ensure_ascii=False))
 ```
 
 Then execute
